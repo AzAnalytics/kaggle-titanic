@@ -1,5 +1,13 @@
-/.venv
-/data
+# Environnement virtuel (se recrée avec requirements.txt)
+/.venv/
+
+# Données Kaggle (redistribution interdite, se téléchargent avec la CLI kaggle)
+/data/
+
+# Secrets : clé d'API Kaggle et variables d'environnement
+kaggle.json
+.env
+
+# Fichiers générés automatiquement par Python et Jupyter
 __pycache__/
-/kaggle.json
-notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
